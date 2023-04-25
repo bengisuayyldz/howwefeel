@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 50px;
+	padding: 50px;
+}
+
+.feelingGroup {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 15px;
+	background-color: hsla(0, 50%, 50%, 0.5);
+	padding: 20px;
+	border-radius: 7px;
+	width: 400px;
+	transition: all 0.1s ease;
+	cursor: pointer;
+}
+
+.feelingGroup:hover {
+	background-color: hsla(0, 50%, 50%, 0.6);
+	transform: scale(1.05);
+}
+
+.feelingName {
+	font-size: 32px;
+	font-family: sans-serif;
+}
+
+.feelingUser {
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: normal;
+	color: hsla(0, 0%, 0%, 0.5);
+}
+
+.feelingPlace,
+.feelingWith,
+.hoursOfSleep,
+.additional {
+	font-size: 16px;
+	color: hsla(0, 0%, 0%, 0.4);
+}
